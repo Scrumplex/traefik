@@ -120,6 +120,9 @@ Entry point address.
 `TRAEFIK_ENTRYPOINTS_<NAME>_ASDEFAULT`:  
 Adds this EntryPoint to the list of default EntryPoints to be used on routers that don't have any Entrypoint defined. (Default: ```false```)
 
+`TRAEFIK_ENTRYPOINTS_<NAME>_FORWARDEDHEADERS_CONNECTION`:  
+List of Connection headers that are allowed to pass through the middleware chain before being removed.
+
 `TRAEFIK_ENTRYPOINTS_<NAME>_FORWARDEDHEADERS_INSECURE`:  
 Trust all forwarded headers. (Default: ```false```)
 

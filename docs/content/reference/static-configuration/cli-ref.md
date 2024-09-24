@@ -120,6 +120,9 @@ Entry point address.
 `--entrypoints.<name>.asdefault`:  
 Adds this EntryPoint to the list of default EntryPoints to be used on routers that don't have any Entrypoint defined. (Default: ```false```)
 
+`--entrypoints.<name>.forwardedheaders.connection`:  
+List of Connection headers that are allowed to pass through the middleware chain before being removed.
+
 `--entrypoints.<name>.forwardedheaders.insecure`:  
 Trust all forwarded headers. (Default: ```false```)
 
